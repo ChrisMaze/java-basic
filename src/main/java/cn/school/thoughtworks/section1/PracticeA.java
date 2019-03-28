@@ -5,7 +5,8 @@ import java.util.Arrays;
 
 public class PracticeA {
     List<String> collectSameElements(List<String> collection1, List<String> collection2) {
-      List<String > collectionB = Arrays.asList("a", "e", "f", "d");
+         List collectionA = new ArrayList<String> (collection1);
+         List collectionB = new ArrayList<String> (collection1);
 
       return collectionB;
     }
