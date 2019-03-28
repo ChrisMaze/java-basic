@@ -14,6 +14,5 @@ public class PracticeB {
         }
         return collectionA;
 
-        return null;
     }
 }
